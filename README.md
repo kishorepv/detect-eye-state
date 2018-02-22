@@ -8,7 +8,8 @@ The model was trained on [this][1] dataset of closed and open eyes.
 To predict for a video use function `predict_on_video` and to predict for an image use `predict_on_image` in the Jupyter notebook
 
 ### Demo
-Below is a sample prediction for the ["Coca-Cola | Eyes Closed"][2] video by Coca-Cola:
+Below is a sample prediction for the ["Coca-Cola | Eyes Closed"][2] video by Coca-Cola.
+The prediction of the model (`open` or `close`) is shown in green in the top-left of video, with the confidence in parenthesis.
    
 ![prediction on video](coca_cola_labelled.gif)
 
